@@ -21,16 +21,14 @@ See the `test` module.
 
 To integrate with your existing spring mvc project , just add `life.yuan.xdubbo` to your `<component-scan/>`
 
-### test
+### Test
 
 ```
-
 git clone xxx
 cd xdubbo
 mvn clean install -DskipTests -Dskip
 cd test
 mvn spring-boot:run
-
 ```
 
 
