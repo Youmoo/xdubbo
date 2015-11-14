@@ -63,6 +63,6 @@ public class Service {
 
 ## License
 
-The Spring Framework is released under version 2.0 of the [Apache License][].
+XDubbo is released under version 2.0 of the [Apache License][].
 
 [Apache License]: http://www.apache.org/licenses/LICENSE-2.0
