@@ -35,7 +35,7 @@ mvn spring-boot:run
 
 ## Explanation
 
-The `Service` below will exposed as:
+The `Service` below will be exposed as:
 
  1. '/service/find'
  2. 'service/update'
