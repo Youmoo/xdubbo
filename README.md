@@ -1,6 +1,8 @@
 xdubbo
 ======
 
+To `mvn clean install` this project, you must have jdk8 installed.
+
 ## Features
 
 1. Expose spring managed beans as http endpoints , especially useful for testing dubbo services.
