@@ -27,4 +27,8 @@ public class Service {
         return "findAll";
     }
 
+    public Object twoArgs(Integer arg1, User arg2) {
+        return new Object[]{arg1, arg2};
+    }
+
 }

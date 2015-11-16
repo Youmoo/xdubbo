@@ -1,7 +1,7 @@
 xdubbo
 ======
 
-## Feature
+## Features
 
 1. Expose spring managed beans as http endpoints , especially useful for testing dubbo services.
 2. A `Service` can be marked as exposable by `ServiceFilter`.
@@ -9,7 +9,7 @@ xdubbo
 
 ## Limitations
 
-1. Can expose bean methods with zero or one arg.
+1. ~~Can expose bean methods with zero or one arg.~~ Multi args are supported now.
 2. Does not support bean method overloading unless a custom `UrlGenerator` is provided to ensure each overloaded method having a different url from each other.
 3. Method arguments are sent from request body (As with `@RequestBody`)
 
@@ -24,7 +24,7 @@ To integrate with your existing spring mvc project , just add `life.yuan.xdubbo`
 ## Test
 
 ```
-git clone xxx
+git clone https://github.com/Youmoo/xdubbo.git
 cd xdubbo
 mvn clean install -DskipTests -Dskip
 cd test

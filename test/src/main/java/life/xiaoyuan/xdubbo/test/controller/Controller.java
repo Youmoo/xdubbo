@@ -13,14 +13,21 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("controller")
 public class Controller {
 
-    @RequestMapping("hello")
-    public String hello() {
+    @RequestMapping("noArg")
+    public String primitive() {
 
-        return "hello world.";
+        return "no arg";
     }
 
-    @RequestMapping("user")
-    public User hello(@RequestBody User user) {
+    @RequestMapping("primitive")
+    public Integer primitive(Integer num) {
+
+        return num;
+    }
+
+    @RequestMapping("complex")
+    public User complex(@RequestBody User user) {
+
         return user;
     }
 }
