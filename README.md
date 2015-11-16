@@ -21,7 +21,7 @@ See the `test` module.
 
 [Download Postman test data](https://www.getpostman.com/collections/b87a452f355a01bf8a10)
 
-To integrate with your existing spring mvc project , just add `life.yuan.xdubbo` to your `<component-scan/>`
+To integrate with your existing spring mvc project , just add `life.xiaoyuan.xdubbo` to your `<component-scan/>`
 
 ## Test
 
